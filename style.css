@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(imagens/biblioteca.jpeg);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    grid-template-rows: 10% 70% 10%;
+    grid-template-areas: 'header header'
+        'aside aside'
+        'footer footer';
+    gap: 10px;
+}
+
+h1 {
+    background-color: antiquewhite;
+    font-size: 40px;
+    font-family: Impact;
+    font-style: normal;
+    color: rgb(46, 34, 2);
+    text-shadow: 2px 2px rgb(201, 160, 103);
+    text-align: center;
+    border-style: outset;
+    border-color: rgb(201, 160, 103);
+}
+
+h2{
+    background-color: rgba(250, 235, 215, 0);
+    font-size: 40px;
+    font-family: Impact;
+    font-style: normal;
+    color: rgb(46, 34, 2);
+    text-shadow: 2px 2px rgb(201, 160, 103);
+    text-align: center;
+    border-style: outset;
+    border-color: rgb(201, 160, 103);
+
+}
+
+h3 {
+    font-size: 16px;
+    color: rgb(43, 39, 39);
+}
+
+.aluno {
+    background-color: antiquewhite;
+    /*fundo do quadro*/
+    font-size: 40px;
+    font-family: Impact;
+    font-style: normal;
+    color: rgb(46, 34, 2);
+    text-shadow: 2px 2px rgb(201, 160, 103);
+    /*sombra do texto*/
+    text-align: center;
+    border-style: outset;
+    border-color: rgb(201, 160, 103);
+    margin-right: 700px;
+    margin-left: 300px;
+
+}
+
+label {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: brown;
+    line-height: normal;
+}
+
+input {
+    width: 80%;
+}
+
+button {
+    text-align: center;
+    color: antiquewhite;
+    width: 70%;
+    background-color: darkred;
+    font-size: 20px;
+}
+
+.center {
+    width: 500px;
+    border: 3px solid darkred;
+    padding: 30px;
+    margin: auto;
+    background-color: rgba(201, 160, 103, 0.479);
+    text-align: center;
+    margin-top: 100px;
+}
+
+div {
+    width: 290px;
+    border: 3px solid darkred;
+    padding: 30px;
+    margin: auto;
+    background-color: rgba(201, 160, 103, 0.295);
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+header {
+    grid-area: header;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+aside {
+    grid-area: aside;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+footer {
+    grid-area: footer;
+    background-color: rgba(255, 255, 255, 0);
+}
